@@ -1,0 +1,62 @@
+/* Add your code for the Coffee Buddy CSS */
+:root{
+    font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;  
+  font-weight: 400;
+}
+
+html{
+    color:#222;
+    line-height: 2;
+}
+
+h1, h2{
+    font-family: 'Lily Script One', cursive;
+}
+
+.brand{
+    background-image: url('../images/logo.svg');
+    background-repeat: no-repeat;
+    height:270px;
+    width:300px;
+}
+
+.brand span{
+    position:absolute;
+    left:-999em;
+}
+
+.nav-primary ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.nav-primary li{
+    display:inline;
+}
+
+.nav-primary a{
+    text-decoration: none;
+    padding: 0 10px;
+    color:#A76D60;
+    text-transform:uppercase;
+}
+.nav-primary a:hover{
+    color:#00A676;
+    text-decoration: underline;
+}
+
+.container{
+    max-width:800px;
+    margin: auto;
+    background-color:#bada55;
+}
+
+header.container{
+    max-width:1200px;
+}
